@@ -1,0 +1,19 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+SQLAlchemy==2.0.34
+psycopg2-binary==2.9.9
+
+requests==2.32.3
+pinecone-client==5.0.1
+
+# local embeddings
+sentence-transformers==3.0.1
+torch>=2.2.0; platform_system != "Windows" or platform_machine != "x86_64"  # standard; Windows CPU may need manual install
+
+# parsing
+pdfminer.six==20231228
+python-docx==1.1.2
